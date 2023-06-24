@@ -1,0 +1,15 @@
+*, *::after, *::before {
+    box-sizing:border-box;
+}
+
+.test {
+    color: red;
+}
+
+body {
+    font-family: raleway;
+}
+
+a{
+    transition: all .3s ease-in-out;
+}

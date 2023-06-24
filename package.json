@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.63.6"
+  }
+}

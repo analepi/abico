@@ -1,0 +1,7 @@
+.vcode/
+node_modules/
+
+package-lock.json
+.DS_Store
+Thumbs.db
+desktop.ini

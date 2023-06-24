@@ -1,0 +1,45 @@
+.abico-footer {
+    height: 280px;
+    width: 100%;
+    background: $lightgray;
+    padding-top:25px;
+}
+
+.footer-links {
+    margin-top: 30px;
+}
+
+.footer-links ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.footer-links a, .abico-contacts a {
+    text-decoration: none;
+    color: $dark-blue;
+    font-weight: 800;
+
+}
+
+footer a:hover {
+    color: $orange;
+}
+
+.abico-footer .container {
+    text-align: center;
+}
+
+
+.abico-copyright, .abico-contacts {
+    text-align: center;
+}
+
+.abico-copyright {
+    opacity: .5;
+}
+
+.abico-contacts {
+    margin-bottom: 15px;
+}

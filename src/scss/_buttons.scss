@@ -1,0 +1,80 @@
+.abico-button {
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-radius: 33px;
+    background-color: #f90;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    width: 360px;
+}
+
+.abico-button a {
+    color: #fff;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+
+.abico-button:hover {
+    background: $btn-hover-bg;
+}
+
+
+
+.abico-phone-button {
+    border-radius: 50%;
+    width: 136px;
+    height: 136px;
+    box-shadow: $shadow-2;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: $h1-font-weight;
+    font-size: $sticky-btn-font-size;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    background-color: $orange;
+    cursor: pointer;
+}
+
+.phone-btn-wrap-1 {
+    position: relative;
+}
+
+.phone-btn-wrap-2 {
+    position: absolute;
+    right: 140px;
+    top: 600px;
+    z-index:999;
+    height: 100%;
+}
+
+.button-phone-icon {
+    height: 42px;
+    width: 42px;
+    transition: all .3s ease-in-out;
+}
+
+.abico-phone-button:hover .button-phone-icon {
+    transform: rotate(45deg);
+}
+
+button {
+    border-radius: 33px;
+    border: 2px solid #F90;
+    display: flex;
+width: 177px;
+padding: 17px 25px;
+justify-content: space-between;
+align-items: center;
+}

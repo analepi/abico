@@ -1,0 +1,60 @@
+.abico-navbar {
+    height: 90px;
+    width: 1309px;
+    justify-content: space-between;
+}
+
+.abico-header-wrap {
+    background-color: $lightgray;
+    padding: 0;
+}
+
+.abico-navbar-collapse {
+    justify-content: space-between; 
+}
+
+.abico-brand {
+    font-weight: 800;
+    color: $dark-blue;
+}
+
+.abico-brand:hover {
+    color: $light-blue;
+}
+
+.abico-nav-link {
+    font-size: $subheader-font-size;
+    font-weight: $subheader-font-weight;
+}
+
+.abico-navbar-contacts {
+    font-size: 1.5em;
+    color: $dark-blue;
+    font-variant-numeric: tabular-nums; /* <numeric-spacing-values> */
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.abico-dropdown-menu {
+    box-shadow: $shadow-3;
+    border: 0;
+    padding: 10px;
+}
+
+.abico-dropdown-item {
+    font-size: 20px;
+}
+
+.abico-dropdown-item:active {
+    background-color: $light-blue;
+    color: $dark-blue;
+}
+
+.abico-navbar-nav {
+    gap: 35px;
+}
+
+.abico-logo-navbar {
+    gap: 10px;
+}

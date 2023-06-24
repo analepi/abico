@@ -1,0 +1,50 @@
+.abico-hero {
+    position: relative;
+    margin-left: 300px;
+    margin-top: 190px;
+    width: 1000px;
+    height: 549px;
+    background-image: url(../img/cropped\ hero.png);
+    background-size: cover;
+}
+
+
+.abico-hero-bg {
+    display: block;
+    width: 584px;
+    height: 621px;
+    border-radius: 150px 0px;
+    background: linear-gradient(33deg, #9DCCF6 0%, rgba(157, 204, 246, 0) 100%);
+    z-index: -1;
+    position: absolute;
+    left: 204px;
+    top: -88px;
+}
+
+.abico-hero-image {
+    width: 1000px;
+    position: absolute;
+    z-index: 1;
+    top: 107px;
+}
+
+.abico-hello-1 {
+    font-size: $h1-font-size;
+    font-weight: $h1-font-weight;
+    color: $dark-blue;
+    line-height: 120%;
+}
+
+.abico-hello-1 strong {
+    color: $orange;
+}
+
+.abico-hello-2 {
+    font-size: $base-text-font-size;
+    font-weight: $base-text-font-weight;
+}
+
+.abico-hero-hello {
+    position: absolute;
+    top: 280px;
+}

@@ -18,13 +18,13 @@ const path = {
         img:'build/img/'
     },
     src:{
-        html:'src/*.{html,htm}',
+        html: 'src/*.{html,htm}',
         js:'src/js/**/*.js',
         scss:'src/scss/style.scss',
         img:'src/img/**/*.{png,jpg,gif,webp,svg}'
     },
     watch:{
-        html:'src/*.{html,htm}',
+        html: 'src/*.{html,htm}',
         js:'src/js/**/*.js',
         scss:'src/scss/style.scss',
         img:'src/img/**/*.{png,jpg,gif,webp,svg}'
@@ -36,6 +36,11 @@ const config = {
     server: {
         baseDir: "./build", // base directory
         index: "index.html", // start page
+        contacts: "contacts.html", // contacts page
+        interpreting: "interpreting.html", // interpreting page
+        personaldocs: "personal-docs.html", // personal docs page
+        otherservices: "other-services.html", // other services page
+        about: "about.html", // about us page
     },
     tunnel: true, // tunnel
     host: 'localhost',

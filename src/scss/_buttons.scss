@@ -13,6 +13,7 @@
     transition: all .3s ease-in-out;
     cursor: pointer;
     width: 360px;
+    box-shadow: -1px 5px 15px #ff990054;
 }
 
 .abico-button a {
@@ -21,9 +22,27 @@
     text-decoration: none;
 }
 
-.abico-button:hover {
-    background: $btn-hover-bg;
+.abico-form-control {
+    border-radius: 15px;
+    padding: 14px 28px;
 }
+
+.abico-button-form {
+display: flex;
+    padding: 15px 20px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-radius: 33px;
+    background-color: #f90;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: -1px 5px 15px rgba(255,153,0,.3294117647);}
 
 
 
@@ -77,4 +96,23 @@ width: 177px;
 padding: 17px 25px;
 justify-content: space-between;
 align-items: center;
+}
+
+
+.upload-btn {
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-radius: 33px;
+    background-color: transparent;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    border: 2px solid $orange;
+    box-shadow: -1px 5px 15px #ff990054;
 }

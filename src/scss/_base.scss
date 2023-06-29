@@ -6,10 +6,20 @@
     color: red;
 }
 
+
 body {
     font-family: raleway;
 }
 
 a{
     transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+
+.abico-about p {
+    color: $text;
+}
+
+.abico-about {
+    margin-top: 80px;
 }

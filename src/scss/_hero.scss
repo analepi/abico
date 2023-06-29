@@ -11,13 +11,13 @@
 
 .abico-hero-bg {
     display: block;
-    width: 584px;
+    width: 800px;
     height: 621px;
     border-radius: 150px 0px;
     background: linear-gradient(33deg, #9DCCF6 0%, rgba(157, 204, 246, 0) 100%);
     z-index: -1;
     position: absolute;
-    left: 204px;
+    left: 206px;
     top: -88px;
 }
 
@@ -48,3 +48,197 @@
     position: absolute;
     top: 280px;
 }
+
+.hello-animation {
+    position: absolute;
+    left: 650px;
+}
+
+
+/*#spin {*/
+/*    color: $text;*/
+/*    font-size: $h2-font-size;*/
+/*    font-weight: $h2-font-weight;*/
+/*  }*/
+/**/
+/*  #spin:after {*/
+/*    content:"";*/
+/*    animation: spin 10s linear infinite;*/
+/*  }*/
+/**/
+/*  @keyframes spin {*/
+/*    0% {content:"Добрый день!";}*/
+/*    10% {content:"Good afternoon!";}*/
+/*    20% {content:"Guten Tag!";}*/
+/*    30% {content:"Buenas tardes!";}*/
+/*    40% {content:"Bonjour!";}*/
+/*    50% {content: "Dzień dobry!";}*/
+/*    60% {content: "Добър ден!";}*/
+/*    70% {content: "Hayrli kun!";}*/
+/*    80% {content: "こんにちは!";}*/
+/*    90% {content: "下午好!";}*/
+/*  }*/
+
+
+
+
+  .rotating-text-wrapper h2 {
+    font-size: 2.5em;
+    display: block;
+    position: absolute;
+    left: 601px;
+    text-align: center;
+    color: #2c4fa9;
+    font-weight: 700;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    /* border: 1px solid; */
+    width: 390px;
+    top: 35px;
+  }
+  .rotating-text-wrapper h2:nth-child(1) {
+    animation-name: rotating-text-1;
+  }
+  @keyframes rotating-text-1 {
+    0% {
+      
+    }
+    12% {
+      
+      opacity: 1;
+    }
+    13% {
+      opacity: 0;
+    }
+  }
+  .rotating-text-wrapper h2:nth-child(2) {
+    animation-name: rotating-text-2;
+  }
+  @keyframes rotating-text-2 {
+    13% {
+      
+      opacity: 0;
+    }
+    25% {
+      
+      opacity: 1;
+    }
+    26% {
+      opacity: 0;
+    }
+  }
+  .rotating-text-wrapper h2:nth-child(3) {
+    animation-name: rotating-text-3;
+  }
+  @keyframes rotating-text-3 {
+    26% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    39% {
+      
+      opacity: 1;
+    }
+    40% {
+      
+      opacity: 0;
+    }
+  }
+
+  .rotating-text-wrapper h2:nth-child(4) {
+    animation-name: rotating-text-4;
+  }
+  @keyframes rotating-text-4 {
+    40% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    52% {
+      
+      opacity: 1;
+    }
+    53% {
+      
+      opacity: 0;
+    }
+  }
+  
+  .rotating-text-wrapper h2:nth-child(5) {
+    animation-name: rotating-text-5;
+  }
+  @keyframes rotating-text-5 {
+    53% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    65% {
+      
+      opacity: 1;
+    }
+    66% {
+      
+      opacity: 0;
+    }
+  }
+
+  .rotating-text-wrapper h2:nth-child(6) {
+    animation-name: rotating-text-6;
+  }
+  @keyframes rotating-text-6 {
+    66% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    78% {
+      
+      opacity: 1;
+    }
+    79% {
+      
+      opacity: 0;
+    }
+  }
+
+  .rotating-text-wrapper h2:nth-child(7) {
+    animation-name: rotating-text-7;
+  }
+  @keyframes rotating-text-7 {
+    79% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    91% {
+      
+      opacity: 1;
+    }
+    92% {
+      
+      opacity: 0;
+    }
+  }
+
+  .rotating-text-wrapper h2:nth-child(8) {
+    animation-name: rotating-text-8;
+  }
+  @keyframes rotating-text-8 {
+    92% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    99% {
+      
+      opacity: 1;
+    }
+    100% {
+      
+      opacity: 0;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .rotating-text-wrapper {
+      font-size: 0.7rem;
+    }
+  }
+  

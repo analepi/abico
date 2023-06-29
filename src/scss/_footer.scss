@@ -1,7 +1,7 @@
 .abico-footer {
     height: 280px;
     width: 100%;
-    background: $lightgray;
+    background: linear-gradient(351deg, #9DCCF6 0%, rgb(157 204 246 / 24%) 100%);
     padding-top:25px;
 }
 
@@ -9,7 +9,7 @@
     margin-top: 30px;
 }
 
-.footer-links ul{
+.footer-links ul {
     list-style: none;
     display: flex;
     gap: 15px;

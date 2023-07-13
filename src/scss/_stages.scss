@@ -7,12 +7,12 @@
     margin: auto;
     justify-content: space-around;
     padding: 70px;
-    background: linear-gradient(187deg, #9DCCF6 0%, #3151A3 100%);
+    background: $lightgray;
     margin-top: 28px;
 }
 
 .abico-stages-buttons {
-    min-width: 45%;
+    min-width: 50%;
 }
 
 
@@ -23,7 +23,7 @@
     justify-content: flex-start;
     gap: 10px;
     border-radius: 33px !important;
-    color: #fff;
+    color: $text;
     transition: all .3s ease-in-out;
     cursor: pointer;
     &:hover {
@@ -57,5 +57,103 @@
     width: 100%;
     border-radius: 15px;
     background-color: #fff;
-    min-height: 100%;
+    max-height: 100%;
+}
+
+
+.stages-icon img {
+    max-width: 16px;
+    fill: #fff;
+}
+
+
+.service-desc {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.service-menu {
+    min-width: 25%;
+}
+
+.abico-nav-header {
+    font-weight: $h2-font-weight;
+    font-size: $subheader-font-size;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+
+.abico-page-nav {
+    list-style-type: none;
+    & li {
+        display: block;
+    padding: .5rem;
+    transition: all .3s ease-in-out;
+    border-radius: 1rem;
+    &:hover {
+        background-color: $lightgray;
+    }
+    }
+}
+
+
+.abico-page-nav a {
+    color: $dark-blue;
+    &:hover {
+        color: $text;
+    }
+}
+
+
+.abico-price-tables {
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    justify-content: space-around;
+}
+
+.abico-prices-table {
+    width: 100%;
+    border: 1px solid $lightgray;
+    padding: 1rem;
+    & td {
+        border: 1px solid $lightgray;
+        padding: .5rem;
+    }
+}
+
+.price {
+    text-align: center;
+    font-weight: $h2-font-weight;
+    font-variant-numeric: lining-nums;
+    background: $lightgray;
+}
+
+
+tbody tr:hover {
+    background-color: $light-blue;
+  }
+
+
+  tbody tr:hover .price{
+    background-color: $light-blue;
+}
+
+.price-tables-left, .price-tables-right {
+    width: 100%;  
+}
+
+.abico-firstrow {
+    background-color: $dark-blue;
+    font-weight: $h2-font-weight;
+    border-color: $dark-blue;
+    color: #fff;
+    text-align: center;
+}
+
+.abico-firstrow:hover {
+    background-color: $dark-blue;
+    border-color: $dark-blue;
 }

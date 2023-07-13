@@ -11,7 +11,7 @@
 
 .abico-hero-bg {
     display: block;
-    width: 800px;
+    width: 32rem;
     height: 621px;
     border-radius: 150px 0px;
     background: linear-gradient(33deg, #9DCCF6 0%, rgba(157, 204, 246, 0) 100%);
@@ -42,12 +42,14 @@
 .abico-hello-2 {
     font-size: $base-text-font-size;
     font-weight: $base-text-font-weight;
-    margin-top: 20px;
 }
 
 .abico-hero-hello {
     position: absolute;
     top: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .hello-animation {
@@ -83,11 +85,24 @@
 
 
 
+.rotating-text-bubble {
+  margin: 0;
+  position: absolute;
+  left: 60%;
+  width: 24rem;
+  text-align: center;
+  padding: 20px;
+  background: #efefef;
+  display: flex;
+  align-items: center;
+  border-radius: 100px 0px;
+  height: 6.5rem;
+  background: linear-gradient(225deg, #c5e4ff 0%, rgb(255 255 255) 100%);
+}
   .rotating-text-wrapper h2 {
     font-size: 2.5em;
     display: block;
     position: absolute;
-    left: 601px;
     text-align: center;
     color: #2c4fa9;
     font-weight: 700;

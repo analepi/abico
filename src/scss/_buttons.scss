@@ -6,7 +6,6 @@
     gap: 10px;
     border-radius: 33px;
     background-color: #f90;
-    margin-top: 50px;
     font-size: 20px;
     font-weight: 800;
     color: #fff;
@@ -23,7 +22,7 @@
 }
 
 .abico-form-control {
-    border-radius: 15px;
+    border-radius: 0.375rem;
     padding: 14px 28px;
 }
 
@@ -35,7 +34,6 @@ display: flex;
     gap: 10px;
     border-radius: 33px;
     background-color: #f90;
-    margin-top: 50px;
     font-size: 20px;
     font-weight: 800;
     color: #fff;
@@ -92,7 +90,7 @@ button {
     border-radius: 33px;
     border: 2px solid #F90;
     display: flex;
-width: 177px;
+/*width: 177px;*/
 padding: 17px 25px;
 justify-content: space-between;
 align-items: center;

@@ -11,50 +11,54 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary abico-header-wrap">
-        <div class="container-fluid abico-navbar-logo abico-navbar">
-        <!-- Image and text -->
-        <nav class="navbar navbar-light bg-light abico-logo-navbar">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid  abico-navbar-logo abico-navbar">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
           <a class="navbar-brand abico-brand" href="index.html">
-          <img src="img/logo.svg" width="56" height="56" class="d-inline-block align-middle" alt="">
-            ABICO GLOBAL
-          </a>
-          </nav>
-          
-            <ul class="navbar-nav abico-navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link abico-nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Цены и услуги
-                </a>
-                <ul class="dropdown-menu abico-dropdown-menu">
-                  <li><a class="dropdown-item abico-dropdown-item" href="#">Перевод личных документов</a></li>
-                  <li><a class="dropdown-item abico-dropdown-item" href="#">Специализированный перевод</a></li>
-                  <li><a class="dropdown-item abico-dropdown-item" href="#">Устный перевод</a></li>
-                  <li><a class="dropdown-item abico-dropdown-item" href="#">Легализация</a></li>
-                  <li><a class="dropdown-item abico-dropdown-item" href="#">Сопутствующие услуги</a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link abico-nav-link" href="#">Контакты</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link abico-nav-link" href="#">О&nbsp;нас</a>
-              </li>
-            </ul>
-
-            <div class="abico-navbar-contacts">
-              <div class="abico-header-phone">+7 917 971 06 17</div>
-              <div class="abico-header-contacts-icons">
-                <img src="img/whatsapp-icon.svg" alt="" srcset="">
-                <img src="img/telegram-icon.svg" alt="" srcset="">
-              </div>
-            </div>
-
-
-          
+            <img src="img/logo.svg" width="56" height="56" class="d-inline-block align-middle" alt="">
+              ABICO GLOBAL
+            </a>
         </div>
       </nav>
+      
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse abico-navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav abico-navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link abico-nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Цены и услуги
+            </a>
+            <ul class="dropdown-menu abico-dropdown-menu">
+              <li><a class="dropdown-item abico-dropdown-item" href="services.html">Перевод личных документов</a></li>
+              <li><a class="dropdown-item abico-dropdown-item" href="translation.html">Специализированный перевод</a></li>
+              <li><a class="dropdown-item abico-dropdown-item" href="#">Устный перевод</a></li>
+              <li><a class="dropdown-item abico-dropdown-item" href="#">Легализация</a></li>
+              <li><a class="dropdown-item abico-dropdown-item" href="#">Сопутствующие услуги</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link abico-nav-link" href="contacts.html">Контакты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link abico-nav-link" href="about.html">О&nbsp;нас</a>
+          </li>
+        </ul>
+
+        <div class="abico-navbar-contacts">
+          <div class="abico-header-phone">+7 917 971 06 17</div>
+          <div class="abico-header-contacts-icons">
+            <img src="img/whatsapp-icon.svg" alt="" srcset="">
+            <img src="img/telegram-icon.svg" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 
       <div class="container">
         <div class="abico-contacts-page">
@@ -62,12 +66,12 @@
               <div class="abico-header">
                 Офис в Санкт-Петербурге
               </div>
-              <i class="fa-sharp fa-regular fa-map-location"></i> Станция метро Старая Деревня<br>
-              Торфяная дорога, д.7 лит. А<br>
-              Бизнес-центр “Гулливер”<br>
-              2 этаж, офис 215<br>
-              ПН-ПТ, 10:00 - 19:00<br>
-              Без перерывов<br>
+              <i class="fa-solid fa-map-location-dot abico-address-icon"></i> Станция метро Старая Деревня<br>
+              <i class="fa-solid fa-road abico-address-icon"></i> Торфяная дорога, д.7 лит. А<br>
+              <i class="fa-solid fa-building abico-address-icon"></i> Бизнес-центр “Гулливер”<br>
+              <i class="fa-solid fa-door-closed abico-address-icon"></i> 2 этаж, офис 215<br>
+              <i class="fa-solid fa-calendar-days abico-address-icon"></i> ПН-ПТ, 10:00 - 19:00<br>
+              <i class="fa-regular fa-clock abico-address-icon"></i> Без перерывов<br>
           </div>
           <div class="abico-map">
           <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af53b292e152f4f6bc1d276eec52ad25cac1d4fe106161288327446a29331dbef&amp;width=756&amp;height=424&amp;lang=ru_RU&amp;scroll=true"></script></div>
@@ -75,31 +79,36 @@
 
         <div class="abico-contacts-icons">
           <div class="abico-contacts-icons__phone">
-            <img src="img/contacts-phone.svg" alt="" srcset="">
-            <div class="phone-links">            <a href="tel:+7-917-971-06-17">+7 (917) 971-06-17</a><br>
-            <a href="tel:+7-960-237-07-28">+7 (960) 237-07-28</a></div>
+            <div class="contacts-span"><i class="fa-solid fa-phone-volume"></i> Наши телефоны</div>
+            <div class="phone-links">
+              <a href="tel:+7-917-971-06-17">+7 (917) 971-06-17</a><br>
+            <a href="tel:+7-960-237-07-28">+7 (960) 237-07-28</a>
+          </div>
 
           </div>
           <div class="abico-contacts-icons__mail">
-            <img src="img/contacts-mail.svg" alt="" srcset="">
+            <div class="contacts-span"><i class="fa-solid fa-envelope"></i> Электронная почта</div>
             <div class="mail-links"><a href="mailto:order@abicoglobal.ru">order@abicoglobal.ru</a><br>
             <a href="mailto:abicoglobal@ya.ru">abicoglobal@ya.ru</a></div>
             
           </div>
           <div class="abico-contacts-icons__msg">
+            <div class="contacts-span"> Мы в мессенджерах</div>
             <div class="contacts_msg_item">
-              <img src="img/contacts-whatsapp.svg" alt="" srcset="">
-              <a href="whatsapp://+79179710617">WhatsApp</a>
-            </div>
-            <div class="contacts_msg_item">
-              <img src="img/contacts-tlg.svg" alt="" srcset="">
-              <a href="https://telegram.im/@abicoglobal" target="_blank">Telegram</a>
+              
+              <a href="whatsapp://+79179710617"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 32 33" fill="none">
+                <path d="M25.4001 7.04667C24.1777 5.81191 22.7216 4.8329 21.1169 4.16674C19.5122 3.50059 17.7909 3.16062 16.0534 3.16667C8.7734 3.16667 2.84007 9.10001 2.84007 16.38C2.84007 18.7133 3.4534 20.98 4.60007 22.98L2.7334 29.8333L9.7334 27.9933C11.6667 29.0467 13.8401 29.6067 16.0534 29.6067C23.3334 29.6067 29.2667 23.6733 29.2667 16.3933C29.2667 12.86 27.8934 9.54001 25.4001 7.04667ZM16.0534 27.3667C14.0801 27.3667 12.1467 26.8333 10.4534 25.8333L10.0534 25.5933L5.8934 26.6867L7.00006 22.6333L6.7334 22.22C5.63706 20.4693 5.05492 18.4457 5.0534 16.38C5.0534 10.3267 9.98673 5.39334 16.0401 5.39334C18.9734 5.39334 21.7334 6.54001 23.8001 8.62001C24.8234 9.63863 25.6343 10.8502 26.1859 12.1846C26.7375 13.5189 27.0188 14.9495 27.0134 16.3933C27.0401 22.4467 22.1067 27.3667 16.0534 27.3667ZM22.0801 19.1533C21.7467 18.9933 20.1201 18.1933 19.8267 18.0733C19.5201 17.9667 19.3067 17.9133 19.0801 18.2333C18.8534 18.5667 18.2267 19.3133 18.0401 19.5267C17.8534 19.7533 17.6534 19.78 17.3201 19.6067C16.9867 19.4467 15.9201 19.0867 14.6667 17.9667C13.6801 17.0867 13.0267 16.0067 12.8267 15.6733C12.6401 15.34 12.8001 15.1667 12.9734 14.9933C13.1201 14.8467 13.3067 14.6067 13.4667 14.42C13.6267 14.2333 13.6934 14.0867 13.8001 13.8733C13.9067 13.6467 13.8534 13.46 13.7734 13.3C13.6934 13.14 13.0267 11.5133 12.7601 10.8467C12.4934 10.2067 12.2134 10.2867 12.0134 10.2733H11.3734C11.1467 10.2733 10.8001 10.3533 10.4934 10.6867C10.2001 11.02 9.34673 11.82 9.34673 13.4467C9.34673 15.0733 10.5334 16.6467 10.6934 16.86C10.8534 17.0867 13.0267 20.42 16.3334 21.8467C17.1201 22.1933 17.7334 22.3933 18.2134 22.54C19.0001 22.7933 19.7201 22.7533 20.2934 22.6733C20.9334 22.58 22.2534 21.8733 22.5201 21.1C22.8001 20.3267 22.8001 19.6733 22.7067 19.5267C22.6134 19.38 22.4134 19.3133 22.0801 19.1533Z" fill="white"/>
+                </svg></a>
+              
+              <a href="https://telegram.im/@abicoglobal" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 30 29" fill="none">
+                <path d="M14.9915 0.333344C12.1896 0.333344 9.45062 1.1642 7.12092 2.72086C4.79123 4.27751 2.97545 6.49004 1.90321 9.07866C0.830967 11.6673 0.55042 14.5157 1.09704 17.2638C1.64367 20.0119 2.99291 22.5361 4.97416 24.5174C6.9554 26.4986 9.47966 27.8478 12.2277 28.3945C14.9758 28.9411 17.8242 28.6605 20.4128 27.5883C23.0015 26.5161 25.214 24.7003 26.7707 22.3706C28.3273 20.0409 29.1582 17.3019 29.1582 14.5C29.1582 12.6396 28.7917 10.7974 28.0798 9.07866C27.3679 7.35988 26.3243 5.79816 25.0088 4.48266C23.6933 3.16717 22.1316 2.12366 20.4128 1.41172C18.6941 0.699775 16.8519 0.333344 14.9915 0.333344ZM19.4965 21.7987C19.4436 21.931 19.3631 22.0505 19.2602 22.1492C19.1573 22.2478 19.0345 22.3232 18.9 22.3705C18.7656 22.4177 18.6226 22.4356 18.4806 22.423C18.3386 22.4104 18.201 22.3675 18.077 22.2973L14.2308 19.3082L11.7629 21.5862C11.7056 21.6285 11.6386 21.6557 11.5681 21.6653C11.4976 21.675 11.4257 21.6668 11.3592 21.6414L11.8323 17.407L11.8465 17.4198L11.8564 17.3362C11.8564 17.3362 18.7768 11.0348 19.0588 10.7671C19.3449 10.4993 19.25 10.4413 19.25 10.4413C19.267 10.1154 18.7386 10.4413 18.7386 10.4413L9.5685 16.3403L5.75059 15.0398C5.75059 15.0398 5.16409 14.8301 5.10884 14.3668C5.05075 13.9078 5.769 13.6585 5.769 13.6585L20.9514 7.62634C20.9514 7.62634 22.1995 7.07101 22.1995 7.99184L19.4965 21.7987Z" fill="white"/>
+                </svg></a>
             </div>
           </div>
         </div>
 
 
-        <div class="abico-header" style="margin-top:80px;">Как проехать</div>
+        <div class="abico-header" style="margin-top:40px;margin-bottom:40px;">Как проехать</div>
         <p class="route">Бизнес-центр расположен напротив станции метро. Обратите внимание: наш офис расположен в бизнес-центре, а не в одноименном ТРЦ. Входы в бизнес-центр находятся с двух сторон: со стороны ул. Заусадебной и со стороны ТРЦ. </p>
         <div class="route-imgs">
           <img src="img/gulliver.png" alt="">

@@ -11,50 +11,54 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary abico-header-wrap">
-        <div class="container-fluid abico-navbar-logo abico-navbar">
-        <!-- Image and text -->
-        <nav class="navbar navbar-light bg-light abico-logo-navbar">
-          <a class="navbar-brand abico-brand" href="#">
-          <img src="img/logo.svg" width="56" height="56" class="d-inline-block align-middle" alt="">
-            ABICO GLOBAL
-          </a>
-          </nav>
-          
-            <ul class="navbar-nav abico-navbar-nav">
-              <li class="nav-item dropdown">
-                <a class="nav-link abico-nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Цены и услуги
-                </a>
-                <ul class="dropdown-menu abico-dropdown-menu">
-                  <li><a class="dropdown-item abico-dropdown-item" href="services.html">Перевод личных документов</a></li>
-                  <li><a class="dropdown-item abico-dropdown-item" href="translation.html">Специализированный перевод</a></li>
-                  <li><a class="dropdown-item abico-dropdown-item" href="#">Устный перевод</a></li>
-                  <li><a class="dropdown-item abico-dropdown-item" href="#">Легализация</a></li>
-                  <li><a class="dropdown-item abico-dropdown-item" href="#">Сопутствующие услуги</a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link abico-nav-link" href="contacts.html">Контакты</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link abico-nav-link" href="about.html">О&nbsp;нас</a>
-              </li>
-            </ul>
-
-            <div class="abico-navbar-contacts">
-              <div class="abico-header-phone">+7 917 971 06 17</div>
-              <div class="abico-header-contacts-icons">
-                <img src="img/whatsapp-icon.svg" alt="" srcset="">
-                <img src="img/telegram-icon.svg" alt="" srcset="">
-              </div>
-            </div>
-
-
-          
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid  abico-navbar-logo abico-navbar">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand abico-brand" href="index.html">
+            <img src="img/logo.svg" width="56" height="56" class="d-inline-block align-middle" alt="">
+              ABICO GLOBAL
+            </a>
         </div>
       </nav>
+      
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse abico-navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav abico-navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link abico-nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Цены и услуги
+            </a>
+            <ul class="dropdown-menu abico-dropdown-menu">
+              <li><a class="dropdown-item abico-dropdown-item" href="services.html">Перевод личных документов</a></li>
+              <li><a class="dropdown-item abico-dropdown-item" href="translation.html">Специализированный перевод</a></li>
+              <li><a class="dropdown-item abico-dropdown-item" href="#">Устный перевод</a></li>
+              <li><a class="dropdown-item abico-dropdown-item" href="#">Легализация</a></li>
+              <li><a class="dropdown-item abico-dropdown-item" href="#">Сопутствующие услуги</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link abico-nav-link" href="contacts.html">Контакты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link abico-nav-link" href="about.html">О&nbsp;нас</a>
+          </li>
+        </ul>
+
+        <div class="abico-navbar-contacts">
+          <div class="abico-header-phone">+7 917 971 06 17</div>
+          <div class="abico-header-contacts-icons">
+            <img src="img/whatsapp-icon.svg" alt="" srcset="">
+            <img src="img/telegram-icon.svg" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 
       
 
@@ -80,6 +84,7 @@
         </div>
       <div class="abico-hero">
         <div class="rotating-text-wrapper">
+          <div class="rotating-text-bubble">
           <h2>Добрый день!</h2>
           <h2>Good afternoon!</h2>
           <h2>Buenas tardes!</h2>
@@ -88,6 +93,7 @@
           <h2>Hayrli kun!</h2>
           <h2>こんにちは!</h2>
           <h2>下午好!</h2>
+        </div>
         </div>
         <div class="abico-hero-bg"></div>
       </div>
@@ -102,12 +108,14 @@
       <div class="main-services-content">
 
         <div class="services-item__2">
+          
           <div class="services-item_header"><a href="personal-docs.html">Перевод личных документов</a></div>
           <div class="services-item_desc">Для государственных органов, коммерческих организаций 
             и личных целей </div>
-          <div class="services-item_img"><img src="img/personal-docs.svg" alt="" srcset=""></div>
+            <!-- <div class="services-item_img"><img src="img/personal-docs.svg" alt="" srcset=""></div> -->
         </div>
         <div class="services-item__1">
+          
           <div class="services-item_header"><a href="translation.html">Специализированный перевод</a></div>
           <div class="services-item_desc">Перевод текстов любых тематик от опытных специалистов</div>
           <div class="services-item_tags">
@@ -119,22 +127,24 @@
             <div class="services-item_tags-item"><a href="">ВЭД</a></div>
             <div class="services-item_tags-item"><a href="">Локализация сайтов</a></div>
           </div>
-          <div class="services-item_img"><img src="img/specialized_translation.svg" alt="" srcset=""></div>
+          <!-- <div class="services-item_img"><img src="img/specialized_translation.svg" alt="" srcset=""></div> -->
         </div>
         <div class="services-item__3">
           <div class="services-item_header"><a href="interpreting.html">Устный перевод</a></div>
           <div class="services-item_desc">Последовательный, синхронный, шушутаж, телефонный, у нотариуса</div>
-          <div class="services-item_img"><img src="img/interpreting-icon.svg" alt="" srcset=""></div>
+          <!-- <div class="services-item_img"><img src="img/interpreting-icon.svg" alt="" srcset=""></div>-->
         </div>
         <div class="services-item__4">
+          
           <div class="services-item_header"><a href="legalization.html">Легализация</a></div>
           <div class="services-item_desc">Заверение у нотариуса и печатью компании, апостиль, консульская легализация </div>
-          <div class="services-item_img"><img src="img/legalization-icon.svg" alt="" srcset=""></div>
+          <!-- <div class="services-item_img"><img src="img/legalization-icon.svg" alt="" srcset=""></div>-->
         </div>
         <div class="services-item__5">
+          
           <div class="services-item_header"><a href="other-services.html">И многое другое</a></div>
           <div class="services-item_desc">Верстка, озвучание, аудиовизуальный перевод, набор текста, транскрибирование, печать и доставка </div>
-          <div class="services-item_img"><img src="img/other-services.svg" alt="" srcset=""></div>
+          <!-- <div class="services-item_img"><img src="img/other-services.svg" alt="" srcset=""></div>-->
         </div>
         
 
@@ -221,12 +231,13 @@
             </div>
             <div class="form-deadline">
               <label for="deadline">Желаемый срок готовности</label>
-              <select name="deadline" id="deadline"> 
-                <option value="today">Сегодня</option> 
-                <option value="tomorrow">Завтра</option> 
-                <option value="irrelevant">Не имеет значения</option> 
-                <option value="notsure">Оптимальный срок</option> 
+              <select class="form-select abico-select" aria-label="Default select example">
+                <option selected>Сегодня</option>
+                <option value="1">Завтра</option>
+                <option value="2">Не имеет значения</option>
+                <option value="3">Оптимальный срок</option>
               </select>
+
             </div>
             <div class="form-comment">
               <p>Комментарий</p>
@@ -244,9 +255,6 @@
       </svg>
             </span>
             <span class="upload-area-title">Перетащите файл сюда</span>
-            <span class="upload-area-description">
-              Или <strong>кликните здесь</strong>
-            </span>
           </button>
           
           <div class="mb-3">

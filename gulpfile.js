@@ -40,6 +40,7 @@ const config = {
         interpreting: "interpreting.html", // interpreting page
         personaldocs: "personal-docs.html", // personal docs page
         otherservices: "other-services.html", // other services page
+        translation: "translation.html", // translation page
         about: "about.html", // about us page
     },
     tunnel: true, // tunnel

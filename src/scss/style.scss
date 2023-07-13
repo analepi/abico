@@ -1,6 +1,13 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
 
+@import "vendor/fontawesome/fontawesome";
+@import "vendor/fontawesome/solid";
+@import "vendor/fontawesome/brands";
+@import "vendor/fontawesome/regular";
+@import "vendor/fontawesome/v4-shims";
+
+
 @import "variables";
 @import "base";
 @import "header";
@@ -9,3 +16,7 @@
 @import "mainpage";
 @import "footer";
 @import "accordion";
+@import "contacts";
+@import "stages";
+
+

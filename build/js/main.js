@@ -1,1 +1,1 @@
-import*as bootstrap from"bootstrap";
+import*as bootstrap from"bootstrap";function dropHandler(e){console.log("File(s) dropped"),e.preventDefault(),e.dataTransfer.items?[...e.dataTransfer.items].forEach(((e,o)=>{if("file"===e.kind){const a=e.getAsFile();console.log(`… file[${o}].name = ${a.name}`)}})):[...e.dataTransfer.files].forEach(((e,o)=>{console.log(`… file[${o}].name = ${e.name}`)}))}function dragOverHandler(e){console.log("File(s) in drop zone"),e.preventDefault()}

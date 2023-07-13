@@ -1,0 +1,61 @@
+.abico-stages {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 70px;
+    background: linear-gradient(187deg, #9DCCF6 0%, #3151A3 100%);
+    margin-top: 28px;
+}
+
+.abico-stages-buttons {
+    min-width: 45%;
+}
+
+
+.abico-stages-link {
+    min-width: 100%;
+    display: flex;
+    padding: 15px 20px;
+    justify-content: flex-start;
+    gap: 10px;
+    border-radius: 33px !important;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        color: $orange !important;
+    }
+}
+
+.abico-stages-link.active {
+    display: flex;
+    padding: 15px 20px;
+    justify-content: flex-start;
+    gap: 10px;
+    border-radius: 33px;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    box-shadow: -1px 5px 15px #ff990054;
+    background-color: $orange !important;
+    &:hover{
+        color: #fff !important;
+    }
+}
+
+
+.abico-tab-pane {
+    border: 0px solid #2c4fa9;
+    display: flex;
+    padding: 14px 28px;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #fff;
+    min-height: 100%;
+}
